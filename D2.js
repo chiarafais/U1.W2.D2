@@ -91,8 +91,18 @@ if (carrello > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const valoriNumerici = [9, 4, 6];
-console.log(valoriNumerici.sort());
+let primo = 9;
+let secondo = 4;
+let terzo = 6;
+let valoriNumerici = [];
+valoriNumerici.push(primo, secondo, terzo);
+valoriNumerici = valoriNumerici.sort();
+let min = valoriNumerici[0];
+let mid = valoriNumerici[1];
+let max = valoriNumerici[2];
+console.log(min);
+console.log(mid);
+console.log(max);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
